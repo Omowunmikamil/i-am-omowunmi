@@ -54,12 +54,12 @@ function NavBar() {
         scrollEffect ? "bg-opacity-70 backdrop-blur-md" : "bg-transparent"
       }`}
     >
-      <div className="max-w-[1300px] mx-auto flex justify-between items-center text-gray-200 text-xl pl-3 pr-4 md:px-0 h-20">
+      <div className="max-w-[1300px] mx-auto flex justify-between items-center text-gray-200 text-xl pl-3 pr-4 md:px-6 h-20">
         <Link to="/">
           <img src={logo} className="w-20" alt="logo" />
         </Link>
 
-        <ul className="hidden md:flex z-10 gap-12 cursor-pointer">
+        <ul className="hidden lg:flex z-10 gap-12 cursor-pointer">
           <motion.li
             initial={{ y: 80, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -153,7 +153,7 @@ function NavBar() {
           </motion.li>
         </ul>
 
-        <div className="md:hidden z-50 text-gray-200" onClick={toggleNav}>
+        <div className="lg:hidden z-50 text-gray-200" onClick={toggleNav}>
           {nav ? <AiOutlineClose size={35} /> : <AiOutlineMenu size={35} />}
         </div>
 

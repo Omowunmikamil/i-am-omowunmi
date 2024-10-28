@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <div className=" flex flex-col md:flex-row justify-center md:justify-between items-center border-t border-green border-opacity-20 py-4 px-10 md:px-36 mt-12 shadow-[0_10px_0_5px_rgba(19, 202, 144,0.3)]">
+    <div className=" flex flex-col lg:flex-row justify-center lg:justify-between items-center border-t border-green border-opacity-20 py-4 px-10 lg:px-36 mt-10 shadow-[0_10px_0_5px_rgba(19, 202, 144,0.3)]">
       <motion.div
         initial="initial"
         animate="animate"
@@ -96,7 +96,7 @@ const Footer = () => {
         </motion.a>
       </motion.div>
       <div className="">
-        <p className="text-sm text-gray-300 mt-2 md:mt-0 text-center">
+        <p className="text-sm text-gray-300 mt-2 lg:mt-0 text-center">
           &copy; Copyright 2024. Designed by
           <span className="text-green"> OMOWUNMI KAMILUDEEN</span>
         </p>

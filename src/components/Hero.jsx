@@ -6,8 +6,8 @@ import omowunmi from "../assets/Omowunmi.docx.pdf";
 
 const Hero = () => {
   return (
-    <div className="mt-32 mx-auto max-w-[1300px] relative">
-      <div className="grid md:grid-cols-2 gap-8 place-items-center">
+    <div className="mt-20 lg:mt-16 mx-auto p-6 max-w-[1300px] relative">
+      <div className="grid lg:grid-cols-2 gap-8 place-items-center">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -32,7 +32,7 @@ const Hero = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="text-gray-200 text-2xl md:text-4xl font-semibold tracking-tight mb-4"
+            className="text-gray-200 text-xl md:text-4xl font-semibold tracking-tight mb-4"
           >
             HELLO, I AM <br />
             <span className="text-green">OMOWUNMI KAMILUDEEN</span>
@@ -43,7 +43,7 @@ const Hero = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 1 }}
-            className="text-gray-400 text-base md:text-lg max-w-[350px] md:max-w-[550px] tracking-tight mb-6"
+            className="text-gray-400 text-base md:text-lg max-w-[350px] md:max-w-[500px] tracking-tight mb-6"
           >
             I craft captivating user experiences that grab attention and drive
             engagement. With a keen eye for design and an insatiable curiosity,
@@ -69,7 +69,7 @@ const Hero = () => {
                 stiffness: 400,
                 damping: 10,
               }}
-              className="cursor-pointer font-bold text-gray-200 md:w-auto py-2 px-4 border border-green border-opacity-40 rounded-xl"
+              className="cursor-pointer font-bold text-gray-200 text-sm md:text-base md:w-auto py-2 px-3.5 md:px-4 border border-green border-opacity-40 rounded-xl"
             >
               <a href={omowunmi} download="omowunmi">
                 Download CV
@@ -87,7 +87,7 @@ const Hero = () => {
                 stiffness: 400,
                 damping: 10,
               }}
-              className="cursor-pointer font-bold text-gray-200 md:w-auto py-2 px-8 ml-4 border border-green border-opacity-40 rounded-xl"
+              className="cursor-pointer font-bold text-gray-200 text-sm md:text-base md:w-auto py-2 px-6 md:px-8 ml-2 md:ml-4 border border-green border-opacity-40 rounded-xl"
             >
               <Link to="/portfolio">Portfolio</Link>
             </motion.button>
@@ -96,7 +96,7 @@ const Hero = () => {
 
         <motion.img
           src={profpic}
-          className="max-w-[350px] md:max-w-[450px]"
+          className="max-w-[300px] md:max-w-[450px] mt-4 lg-mt-0"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}

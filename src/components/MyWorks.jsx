@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const MyWorks = () => {
   return (
-    <div className="max-w-[1200px] mx-auto p-6 my-20">
+    <div className="max-w-[1200px] mx-auto p-6 my-16 md:my-20">
       <div>
         <h2 className="text-3xl text-gray-200 font-bold mb-2">My Projects</h2>
         <hr className="w-1/4 md:w-1/12 h-[3px] border-none bg-green mb-8" />

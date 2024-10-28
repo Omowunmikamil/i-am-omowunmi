@@ -65,21 +65,21 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="max-w-[1300px] mx-auto p-6 my-20">
+    <div className="max-w-[1200px] mx-auto p-6 my-16 md:my-20">
       <div>
         <h3 className="mb-4 font-bold text-3xl text-gray-200 tracking-tight">
           Get in Touch
         </h3>
         <hr className="w-1/4 md:w-1/12 h-[3px] border-none bg-green mt-2" />
       </div>
-      <div className="flex flex-col lg:flex-row items-center my-16 md:my-8">
-        <div className="md:basis-1/3 md:mr-10 md:px-6">
+      <div className="flex flex-col lg:flex-row items-center my-12 lg:my-8">
+        <div className="lg:basis-1/3 lg:mr-10 lg:px-6">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
-            className="max-w-[350px] md:max-w-[400px]"
+            className="max-w-[300px] md:max-w-[400px]"
           >
             <p className="text-xl text-gray-200 font-medium">
               Let&apos;s start a journey together
@@ -107,7 +107,7 @@ const ContactMe = () => {
 
         <form
           onSubmit={handleSubmit}
-          className="flex flex-col lg:basis-2/3 mt-8 md:px-0"
+          className="flex flex-col lg:basis-2/3 mt-8 "
         >
           <input
             type="text"
