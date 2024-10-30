@@ -48,6 +48,7 @@ This portfolio serves as a personal website and a platform to demonstrate my wor
 
 ## Project Structure
 
+```bash
 📂 src
 |-- 📁 assets # Static assets like images, icons
 |-- 📂 components # UI components like navbar, footer, e.t.c
@@ -66,6 +67,7 @@ This portfolio serves as a personal website and a platform to demonstrate my wor
 |-- App.jsx # Routes and pages layouts for the app
 |-- Main.jsx # Main page layout
 |-- index.js # Entry point of the app
+```
 
 ## Installation and Setup
 
