@@ -111,7 +111,7 @@ Distributed under the MIT License. See LICENSE for more information.
 
 Feel free to reach out via email, connect with me on LinkedIn, or on other socials.
 
-- **Email:** [Message me](balikiskamil@gmail.com)
-- **LinkedIn:** [Omowunmi Kamil](https://www.linkedin.com/in/omowunmi-kamiludeen/)
-- **Twitter:** [Omowunmi Kamil](https://twitter.com/browsernerd)
+- **Email:** [Omowunmi Kamiludeen](mailto:balikiskamil@gmail.com)
+- **LinkedIn:** [Omowunmi Kamiludeen](https://www.linkedin.com/in/omowunmi-kamiludeen/)
+- **Twitter:** [BrowserNerd](https://x.com/Browser_Nerd)
 - **Portfolio:** [i-am-omowunmi](https://i-am-omowunmi.vercel.app/)
