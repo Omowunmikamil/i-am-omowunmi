@@ -2,7 +2,7 @@ import profpic from "../assets/profpic.png";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import omowunmi from "../assets/Omowunmi.docx.pdf";
+import omowunmi from "../assets/omowunmi.pdf";
 
 const Hero = () => {
   return (

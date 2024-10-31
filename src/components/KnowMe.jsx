@@ -11,7 +11,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiFirebase } from "react-icons/si";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import omowunmi from "../assets/Omowunmi.docx.pdf";
+import omowunmi from "../assets/omowunmi.pdf";
 
 const KnowMe = () => {
   return (
