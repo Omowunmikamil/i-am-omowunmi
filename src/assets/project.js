@@ -3,15 +3,26 @@ import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
+import project6 from "../assets/project6.png";
 
 export const projects = [
+  {
+    img: project6,
+    title: "Forever-wears",
+    description:
+      "Forever-Wears is a fashion e-commerce platform that provides a seamless shopping experience for users, featuring secure authentication and efficient product management. Built with the MERN stack.",
+    links: {
+      site: "https://forever-wears-frontend.onrender.com/",
+      github: "https://github.com/Omowunmikamil/Forever-wears",
+    },
+  },
   {
     img: project1,
     title: "Afribite",
     description:
       "AfriBite is an African cuisine platform that helps enhance the visibility and promotion of African restaurants in the UK for restaurant owners, and africa food lovers. Built with React.js, TailwindCss and Firebase.",
     links: {
-      site: "https://afribite.vercel.app/",
+      site: "https://afribite.vercel.app/Sign-up/",
       github: "https://github.com/Omowunmikamil/Afribite",
     },
   },
