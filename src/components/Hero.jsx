@@ -6,8 +6,8 @@ import omowunmi from "../assets/omowunmi.pdf";
 
 const Hero = () => {
   return (
-    <div className="mt-20 lg:mt-16 mx-auto p-6 max-w-[1300px] relative">
-      <div className="grid lg:grid-cols-2 gap-8 place-items-center">
+    <div className="mt-20 lg:mt-16 mx-auto py-6 max-w-[1300px] relative">
+      <div className="grid lg:grid-cols-2 gap-8  place-items-center">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -43,7 +43,7 @@ const Hero = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 1 }}
-            className="text-gray-400 text-base md:text-lg max-w-[350px] md:max-w-[500px] tracking-tight mb-6"
+            className="text-gray-400 text-base md:text-lg max-w-[350px] md:max-w-[570px] tracking-tight mb-6"
           >
             I craft captivating user experiences that grab attention and drive
             engagement. With a keen eye for design and an insatiable curiosity,
@@ -96,7 +96,7 @@ const Hero = () => {
 
         <motion.img
           src={profpic}
-          className="max-w-[300px] md:max-w-[450px] mt-4 lg-mt-0"
+          className="max-w-[300px] md:max-w-[500px] mt-4 lg-mt-0"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}

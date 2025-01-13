@@ -33,7 +33,7 @@ export const projects = [
     description:
       "Ridepal is a website that provides a sustainable and efficient transportation solution, fostering community and promoting environmental responsibility. Built with HTML, CSS and JavaScript.",
     links: {
-      site: "https://omowunmikamil.github.io/Ridepal-home-page/",
+      site: "https://ridepal.ng/",
       github: "#",
     },
   },
