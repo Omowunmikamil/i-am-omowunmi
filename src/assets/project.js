@@ -4,8 +4,19 @@ import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
+import project7 from "../assets/project7.png";
 
 export const projects = [
+  {
+    img: project7,
+    title: "BasicStore",
+    description:
+      "A modern e-commerce web application designed for seamless online shopping. Built with React.js and Tailwind CSS, it features a dynamic product catalog, a responsive UI, and an intuitive shopping experience. The project showcases efficient state management, reusable components, and optimized performance for smooth navigation.",
+    links: {
+      site: "https://basic-store-xi.vercel.app/",
+      github: "https://github.com/Omowunmikamil/BasicStore",
+    },
+  },
   {
     img: project6,
     title: "Forever-wears",
